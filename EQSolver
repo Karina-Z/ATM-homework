@@ -23,16 +23,12 @@ public class EQSolver {
         if (x1 < 0 || x2 < 0) {
             System.out.println("There is no solution");
         }
-        if (x1 == 0) {
+        if (x1 == 0 || x2 == 0) {
             System.out.println("There is only one root");
             System.out.println("x1 is: " + x1);
             System.out.println("x2 is: " + x2);
         }
-        if (x2 == 0) {
-            System.out.println("There is only one root");
-            System.out.println("x1 is: " + x1);
-            System.out.println("x2 is: " + x2);
-        } else {
+     else {
             System.out.println("x1 is: " + x1);
             System.out.println("x2 is: " + x2);
         }
