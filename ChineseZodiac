@@ -9,7 +9,7 @@ public class ChineseZodiac {
 
         int year = 2019;
         String value = values[year % 12];
-        String color = colors[(int) Math.floor((year-4)%10/2)];
+        String color = colors[(int) Math.floor((year - 4) % 10 / 2)];
 
         System.out.println(year + " is the " + color + " " + value + " year");
     }
