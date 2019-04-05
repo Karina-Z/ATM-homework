@@ -32,6 +32,5 @@ public class EQSolver {
             System.out.println("x1 is: " + x1);
             System.out.println("x2 is: " + x2);
         }
-
     }
 }
